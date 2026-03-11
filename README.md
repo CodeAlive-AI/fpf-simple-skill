@@ -7,7 +7,7 @@ FPF is a transdisciplinary reasoning architecture for systems engineering, knowl
 ## Install
 
 ```bash
-npx skills add CodeAlive-AI/fpf-simple-skill -g -y
+npx skills add CodeAlive-AI/fpf-simple-skill -g
 ```
 
 ## Structure
