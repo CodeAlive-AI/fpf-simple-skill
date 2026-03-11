@@ -1,5 +1,5 @@
 ---
-name: fpf-simple-skill
+name: fpf-simple
 description: "First Principles Framework (FPF) — transdisciplinary reasoning architecture for systems engineering, knowledge coordination, and mixed human/AI teams. Use when the user mentions FPF, first principles, bounded contexts, SoTA packs, concept unification, assurance calculus, or FPF Parts A-K. Not for general philosophy or Agile unrelated to FPF."
 license: MIT
 ---
