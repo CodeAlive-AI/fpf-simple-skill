@@ -91,6 +91,15 @@ After updating, run these checks against the FPF patterns that matter most for a
 | **Composition (B.1)** | If new sections are added, does Step 4 still give adequate synthesis guidance? Are there new cross-section patterns to document? |
 | **Cognitive Elegance (P-1)** | Is the file still compact? Growth should be justified by navigation value, not completeness for its own sake. |
 
+### 6. README files
+
+After updating SKILL.md, sync both README.md and README-RU.md:
+- Update the Sections table if sections were added, removed, or renamed
+- Update the "How it works" / "Как это работает" description if the navigation approach changed
+- Keep both language versions consistent with each other
+
+README files are for humans on GitHub — they must reflect the current state of the skill.
+
 ## Process summary
 
 ```
@@ -99,4 +108,5 @@ After updating, run these checks against the FPF patterns that matter most for a
 3. Update the relevant SKILL.md component (description / use cases / router / INDEX)
 4. Run the FPF self-audit (table above)
 5. Test with simulated user queries
+6. Update README.md and README-RU.md to match
 ```
