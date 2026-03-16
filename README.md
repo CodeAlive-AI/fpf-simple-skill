@@ -1,8 +1,14 @@
 # fpf-simple-skill
 
+[Русская версия (README-RU.md)](README-RU.md)
+
 AI coding agent skill for the [First Principles Framework (FPF)](https://github.com/ailev/FPF) by [Anatoly Levenchuk](https://github.com/ailev).
 
-FPF is a transdisciplinary reasoning architecture for systems engineering, knowledge coordination, and mixed human/AI teams. This skill splits the 56,000-line FPF specification into a two-level hierarchy (20 directories, 224 files) so an agent loads only the ~300-line sub-section it needs instead of the entire spec.
+FPF is a transdisciplinary reasoning architecture for systems engineering, knowledge coordination, and mixed human/AI teams.
+
+## How it works
+
+This skill functions as **agentic RAG** — retrieval-augmented generation driven by the agent itself, with no external vector database or embedding pipeline. The 56,000-line FPF specification is split into a two-level hierarchy (20 directories, 224 files). SKILL.md provides a thinking-verb router that maps the user's intent to the right section. The agent then navigates `_index.md` files to pick the narrowest sub-section (~300 lines) and loads only that into context. The agent is the retriever, the router, and the reasoner — all in one loop.
 
 ## Install
 
